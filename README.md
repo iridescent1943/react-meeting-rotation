@@ -15,8 +15,8 @@ Also used it as a way to learn React by observing how ideas translate into code 
 - ✏️ Editable rotation order: Data is stored in *localStorage*
 
 ### 🧠 Others
-- would be good to to be able to add, remove, and edit members in the rotation list
-- would be good if I can add backend integration to connect the app to Microsoft Teams and send automated reminder messages every Monday morning
+- Would be good to to be able to add, remove, and edit members in the rotation list
+- Would be good if I can add backend integration to connect the app to Microsoft Teams and send automated reminder messages every Monday morning
 
 ![Meeting Rotation Screenshot](src/assets/ss1.png)
 ![Meeting Rotation Screenshot](src/assets/ss2.png)

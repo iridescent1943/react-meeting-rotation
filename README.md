@@ -1,16 +1,22 @@
-# React + Vite
+### 🧪 About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web app to manage and visualize host rotations for recurring meetings.
 
-Currently, two official plugins are available:
+Built in ~2–3 hours as a vibe coding experiment using Claude Sonnet 4.6.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Also used it as a way to learn React by observing how ideas translate into code changes and how those changes become a working product, then using the generated code as material to understand the framework’s core components.
 
-## React Compiler
+### ✨ Current Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📅 View meeting host for current and upcoming weeks
 
-## Expanding the ESLint configuration
+- 🔁 Multiple rotation groups: Create and manage separate rotation lists for different meeting types
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✏️ Editable rotation order: Data is stored in *localStorage*
+
+### 🧠 Others
+- would be good to to be able to add, remove, and edit members in the rotation list
+- would be good if I can add backend integration to connect the app to Microsoft Teams and send automated reminder messages every Monday morning
+
+![Meeting Rotation Screenshot](src/assets/ss1.png)
+![Meeting Rotation Screenshot](src/assets/ss2.png)

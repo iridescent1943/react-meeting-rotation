@@ -8,6 +8,8 @@ Also used it as a way to learn React by observing how ideas translate into code 
 
 ### ✨ Current Features
 
+- 🔗 Live Demo: https://iridescent1943.github.io/react-meeting-rotation/
+
 - 📅 View meeting host for current and upcoming weeks
 
 - 🔁 Multiple rotation groups: Create and manage separate rotation lists for different meeting types
